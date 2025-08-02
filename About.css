@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .about-container {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .company-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .owners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .owner-card {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s;
+  }
+  
+  .owner-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .owner-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .owner-card h3 {
+    margin: 15px 0 5px;
+    color: #222;
+  }
+  
+  .owner-card p {
+    color: #888;
+    font-size: 14px;
+  }
+  
